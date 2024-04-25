@@ -21,7 +21,7 @@ load_dotenv()  # Load the environment variables from .env
 api_key = os.getenv("MY_API_KEY")
 
 # Set a default value for the YouTube URL in session state
-st.title("YouTube Video Transcription and Q&A with LangChain Agent")
+st.title("Generate workout plan from youtube video")
 
 # Persistent YouTube URL and question query in session state
 if 'youtube_url' not in st.session_state:
