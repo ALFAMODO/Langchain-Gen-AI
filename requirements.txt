@@ -1,0 +1,12 @@
+openai-whisper
+git+https://github.com/openai/whisper.git
+setuptools-rust
+pytube
+langchain
+pydub
+unstructured
+langchainhub
+langchain_openai
+langchain-community
+openai 
+faiss-cpu
